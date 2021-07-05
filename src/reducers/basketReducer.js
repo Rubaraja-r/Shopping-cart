@@ -17,20 +17,6 @@ const initialState = {
             numbers: 0,
             inCart: false
         },
-        fullfrok: {
-            name: "Red Full Frok",
-            tagName: 'fullfrok',
-            price: 35.00,
-            numbers: 0,
-            inCart: false
-        },
-        GownSalvarsuit: {
-            name: "Gown Salvar suit",
-            tagName: 'GownSalvarsuit',
-            price: 33.00,
-            numbers: 0,
-            inCart: false
-        },
         MiniGown: {
             name: "MiniGown",
             tagName: 'MiniGown',
@@ -45,10 +31,10 @@ const initialState = {
             numbers: 0,
             inCart: false
         },
-        Partywear: {
-            name: "Party wear",
-            tagName: 'Partywear',
-            price: 50.00,
+        PartyWear: {
+            name: "Party Wear",
+            tagName: 'PartyWear',
+            price: 100.00,
             numbers: 0,
             inCart: false
         },
@@ -66,6 +52,57 @@ const initialState = {
             numbers: 0,
             inCart: false
         },
+        CasualWear: {
+            name: "Casual Wear",
+            tagName: 'CasualWear',
+            price: 100.00,
+            numbers: 0,
+            inCart: false
+        },
+        Miniskirt: {
+            name: "Mini skirt",
+            tagName: 'Miniskirt',
+            price: 200.00,
+            numbers: 0,
+            inCart: false
+        },
+        Summerwear: {
+            name: "Summer wear",
+            tagName: 'Summerwear',
+            price: 90.00,
+            numbers: 0,
+            inCart: false
+        },
+        Jhunjhar: {
+            name: " Jhunjhar",
+            tagName: ' Jhunjhar',
+            price: 700.00,
+            numbers: 0,
+            inCart: false
+        },
+        Outingwear: {
+            name: "Outing wear",
+            tagName: 'Outingwear',
+            price: 100.00,
+            numbers: 0,
+            inCart: false
+        },
+        Maxi: {
+            name: "Maxi",
+            tagName: 'Maxi',
+            price: 500.00,
+            numbers: 0,
+            inCart: false
+        },
+        Redtop: {
+            name: "Red top",
+            tagName: 'Redtop',
+            price: 300.00,
+            numbers: 0,
+            inCart: false
+        },
+        
+    
 
     }
 }

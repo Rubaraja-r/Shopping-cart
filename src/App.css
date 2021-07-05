@@ -14,6 +14,7 @@ header {
   background-position: center;
   height: 150px;
   position: relative;
+  
 }
 
 .overlay {
@@ -38,20 +39,22 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 50px 60px 0 60px;
+   padding: 50px 60px 0 60px;
 }
 
 nav li {
   list-style: none;
   display: inline-block;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
 }
 
 li a {
   padding: 5px;
   background-color: aqua;
-  text-decoration: none;;
+  text-decoration: none;
+  
 }
 
 .cart ion-icon {
@@ -81,6 +84,8 @@ li a {
   margin-left: 20px;
   position: relative;
   overflow: hidden;
+ 
+  
 }
 
 .addToCart {
@@ -101,8 +106,14 @@ li a {
 .image:hover .cart6,
 .image:hover .cart7,
 .image:hover .cart8,
-.image:hover .cart9 {
-  bottom: 50px;
+.image:hover .cart9,
+.image:hover .cart10,
+.image:hover .cart11,
+.image:hover .cart12,
+.image:hover .cart13,
+.image:hover .cart14
+ {
+  bottom: 10px;
   opacity: 1;
   padding: 10px;
   text-decoration: none;
@@ -123,6 +134,7 @@ li a {
   margin-left: 10px;
   margin-right: 10px;
   cursor: pointer;
+  font-weight: bold;
 }
 
 .product-header {
@@ -180,7 +192,7 @@ li a {
 }
 
 .products img {
-  width: 75px;
+  width: 20px;
 }
 
 .basketTotalContainer {
@@ -220,4 +232,9 @@ body {
   .basketTotalContainer {
       padding-right: 8%;
   }
+}
+.ruru {
+  font-size:3rem;
+  font-style: italic;
+  color:floralwhite;
 }

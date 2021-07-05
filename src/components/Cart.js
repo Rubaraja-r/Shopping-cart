@@ -1,17 +1,21 @@
 import React, {Fragment} from 'react';
 import { connect } from 'react-redux';
 import { productQuantity, clearProduct } from '../actions/productQuantity';
-
-
 import designerDress from '../images/designerdress.jpg';
 import dungaree from '../images/Dungareedress.jpg';
-import fullfrok from '../images/fullfrok.jpg';
-import  GownSalvarsuit from '../images/GownSalvarsuit.jpg';
 import MiniGown from '../images/MiniGown.jpg';
-import Partywear from '../images/Partywear.jpg';
 import Shiftdress from '../images/Shiftdress.jpg';
 import Strapelesssuffleddress from '../images/strapelessufffleddress.jpg';
 import Tshirtdress from '../images/TShirtdress.jpeg';
+import Miniskirt from '../images/Miniskirt.jpg';
+import Summerwear from '../images/summer wear.jpg';
+import Outingwear from '../images/Outing wear.jpg';
+import Maxi from '../images/Maxi.jpg';
+import Jhunjhar from '../images/Jhunjhar.jpeg';
+import Redtop from '../images/Red top.jpg';
+import CasualWear from '../images/causualwear.jpg';
+import PartyWear from '../images/PartyWear.jpg';
+
 
 
 function Cart({basketProps, productQuantity, clearProduct}) {
@@ -34,16 +38,9 @@ function Cart({basketProps, productQuantity, clearProduct}) {
             return designerDress;
         } else if(product.tagName === 'dungaree ') {
             return dungaree ;
-        } else if(product.tagName === 'fullfrok') {
-            return fullfrok;
-        } else if(product.tagName === 'GownSalvarsuit') {
-            return GownSalvarsuit;
         }
           else if(product.tagName === 'MiniGown') {
             return MiniGown;
-        }
-          else if(product.tagName === 'Partywear') {
-            return Partywear;
         }
           else if(product.tagName === 'Shiftdress') {
             return Shiftdress;
@@ -53,6 +50,30 @@ function Cart({basketProps, productQuantity, clearProduct}) {
         }
           else if(product.tagName === 'Tshirtdress') {
             return Tshirtdress;
+          }
+          else if(product.tagName === 'CasualWear') {
+            return CasualWear;
+        }
+          else if(product.tagName === 'Miniskirt') {
+            return Miniskirt;
+        }
+          else if(product.tagName === 'Summerwear ') {
+            return Summerwear ;
+        }
+        else if(product.tagName === 'Outingwear') {
+            return Outingwear ;
+        }
+        else if(product.tagName === 'Maxi') {
+            return Maxi ;
+        }
+        else if(product.tagName === 'Jhunjhar ') {
+            return Jhunjhar;
+        }
+        else if(product.tagName === 'Redtop') {
+            return Redtop ;
+        }
+        else if(product.tagName === 'PartyWear') {
+            return PartyWear;
         }
     }
 

@@ -13,7 +13,7 @@ function Navbar(props) {
         <header>
             <div className="overlay"></div>
             <nav>
-            <h1>Welcome to Ruru Shopping Haul</h1>
+            <h1 className="ruru">Welcome to Ruru Shopping Haul:)</h1>
             <ul>
                 <li><Link to="/">Home</Link></li>
                 <li className="cart"><Link to="/cart">
