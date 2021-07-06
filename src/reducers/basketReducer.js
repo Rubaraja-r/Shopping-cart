@@ -13,7 +13,7 @@ const initialState = {
         dungaree : {
             name: "Dungaree Dress",
             tagName: 'dungaree',
-            price: 14.00,
+            price: 35.00,
             numbers: 0,
             inCart: false
         },

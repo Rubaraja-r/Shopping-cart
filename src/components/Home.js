@@ -30,7 +30,7 @@ const Home = (props) => {
             <div className="image">
                 <img src={dungaree} alt="Dungaree Dress" />
                 <h3>Dungaree Dress</h3>
-                <h3>$14,00</h3>
+                <h3>$35,00</h3>
                 <a onClick={() => props.addBasket('dungaree')} className="addToCart cart2" href="#">Add to Cart</a>
             </div>
             <div className="image">
