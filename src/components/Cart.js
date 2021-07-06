@@ -14,7 +14,7 @@ import Maxi from '../images/Maxi.jpg';
 import Jhunjhar from '../images/Jhunjhar.jpeg';
 import Redtop from '../images/Red top.jpg';
 import CasualWear from '../images/causualwear.jpg';
-import PartyWear from '../images/PartyWear.jpg';
+import PartyWear from '../images/Partywear.jpg';
 
 
 

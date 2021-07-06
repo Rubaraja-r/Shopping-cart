@@ -11,7 +11,7 @@ import Outingwear from '../images/Outing wear.jpg';
 import Maxi  from '../images/Maxi.jpg';
 import Jhunjhar from '../images/Jhunjhar.jpeg';
 import Redtop from '../images/Red top.jpg';
-import PartyWear from '../images/PartyWear.jpg'; 
+import PartyWear from '../images/Partywear.jpg'; 
 
 import React, { useState } from 'react';
 import { connect } from 'react-redux';
